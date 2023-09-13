@@ -35,7 +35,7 @@ setup(
         'Programming Language :: Python :: 3.8',
     ],
     keywords='zip zipfile fastzip',
-    python_requires='>=3.5, <=3.10',
+    python_requires='>=3.5, <=3.11',
     py_modules=['fastzipfile'],
     ext_modules=[decrypter],
     zip_safe=False
